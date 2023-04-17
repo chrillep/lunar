@@ -95,7 +95,7 @@
             <div x-show="tab == 'selected'"
                  class="space-y-2">
                 @forelse($this->selectedModels as $collection)
-                    <div class="flex items-center justify-between w-full px-2 py-2 text-sm text-left border rounded shadow-sm "
+                    <div class="flex items-center justify-between w-full px-2 py-2 text-sm text-left border rounded shadow-sm"
                          wire:key="selected_{{ $collection->id }}">
                         <div class="truncate max-w-64">
                             <strong class="rounded px-1.5 py-0.5 mr-1 bg-sky-50 text-xs text-sky-600">

@@ -104,7 +104,7 @@
       <div x-show="tab == 'selected'" class="space-y-2">
         @forelse($this->selectedModels as $product)
           <div
-            class="flex items-center justify-between w-full px-2 py-2 text-sm text-left border rounded shadow-sm "
+            class="flex items-center justify-between w-full px-2 py-2 text-sm text-left border rounded shadow-sm"
             wire:key="selected_{{ $product->id }}"
           >
             {{ $product->translateAttribute('name') }}

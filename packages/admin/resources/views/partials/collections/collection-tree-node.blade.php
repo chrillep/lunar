@@ -1,5 +1,5 @@
 <div class="space-y-2 my-2">
-    <label class="flex items-center space-x-2  bg-white py-2 rounded shadow text-sm px-3 cursor-pointer hover:bg-gray-50">
+    <label class="flex items-center space-x-2 bg-white py-2 rounded shadow text-sm px-3 cursor-pointer hover:bg-gray-50">
         <input type="checkbox" wire:model="selectedCollections" value="{{ $node->id }}">
         <div>
             @if($this->searchTerm || $showOnlySelected)

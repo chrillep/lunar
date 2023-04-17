@@ -170,7 +170,7 @@
 
                         <button type="button"
                                 x-on:click.prevent="tab = 'order_history'"
-                                class="px-3 py-2 text-sm font-medium rounded-md "
+                                class="px-3 py-2 text-sm font-medium rounded-md"
                                 :class="{
                                     'bg-white shadow': tab == 'order_history',
                                     'hover:text-gray-700 text-gray-500': tab != 'order_history'
@@ -180,7 +180,7 @@
 
                         <button type="button"
                                 x-on:click.prevent="tab = 'purchase_history'"
-                                class="px-3 py-2 text-sm font-medium rounded-md "
+                                class="px-3 py-2 text-sm font-medium rounded-md"
                                 :class="{
                                     'bg-white shadow': tab == 'purchase_history',
                                     'hover:text-gray-700 text-gray-500': tab != 'purchase_history'
@@ -190,7 +190,7 @@
 
                         <button type="button"
                                 x-on:click.prevent="tab = 'users'"
-                                class="px-3 py-2 text-sm font-medium rounded-md "
+                                class="px-3 py-2 text-sm font-medium rounded-md"
                                 :class="{
                                     'bg-white shadow': tab == 'users',
                                     'hover:text-gray-700 text-gray-500': tab != 'users'
@@ -200,7 +200,7 @@
 
                         <a href="#"
                            x-on:click.prevent="tab = 'addresses'"
-                           class="px-3 py-2 text-sm font-medium rounded-md "
+                           class="px-3 py-2 text-sm font-medium rounded-md"
                            :class="{
                                'bg-white shadow': tab == 'addresses',
                                'hover:text-gray-700 text-gray-500': tab != 'addresses'

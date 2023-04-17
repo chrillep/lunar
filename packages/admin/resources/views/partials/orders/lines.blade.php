@@ -75,7 +75,7 @@
                     <button class="flex mt-2 group xl:mt-0"
                             x-on:click="showDetails = !showDetails"
                             type="button">
-                        <div class="transition-transform "
+                        <div class="transition-transform"
                              :class="{
                                  '-rotate-90 ': !showDetails
                              }">

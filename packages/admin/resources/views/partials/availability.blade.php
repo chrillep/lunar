@@ -29,7 +29,7 @@
               </p>
             </div>
           </header>
-          <div class="divide-y divide ">
+          <div class="divide-y divide">
             @include('adminhub::partials.availability.channels')
           </div>
       </div>

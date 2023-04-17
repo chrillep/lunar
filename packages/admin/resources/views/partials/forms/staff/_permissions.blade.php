@@ -35,7 +35,7 @@
       <ul role="list" class="mt-2 divide-y divide-gray-200 @if($staff->admin) opacity-50 pointer-events-none @endif">
         @foreach($firstPartyPermissions as $permission)
           <li class="py-4">
-            <div class="flex items-center justify-between ">
+            <div class="flex items-center justify-between">
               <div class="flex flex-col">
                 <p class="text-sm font-medium text-gray-900" id="privacy-option-1-label">
                   {{ $permission->name }}
@@ -52,7 +52,7 @@
             @if($permission->children->count())
               <div class="py-2 pl-4 mt-2 space-y-2 border-l @if(!$staffPermissions->contains($permission->handle)) opacity-50 pointer-events-none @endif">
                 @foreach($permission->children as $child)
-                  <div class="flex items-center justify-between ">
+                  <div class="flex items-center justify-between">
                     <div class="flex flex-col">
                       <p class="text-sm font-medium text-gray-900" id="privacy-option-1-label">
                         {{ $child->name }}

@@ -79,7 +79,7 @@
         <div class="space-y-4" x-show="tab == 'selected'">
           @forelse($this->selectedModels as $option)
             <div
-              class="flex items-center justify-between w-full px-2 py-2 text-sm text-left border rounded shadow-sm "
+              class="flex items-center justify-between w-full px-2 py-2 text-sm text-left border rounded shadow-sm"
               wire:key="selected_{{ $option->id }}"
             >
               {{ $option->translate('name') }}

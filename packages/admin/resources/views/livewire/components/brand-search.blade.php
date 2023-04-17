@@ -87,7 +87,7 @@
             <div x-show="tab == 'selected'"
                  class="space-y-2">
                 @forelse($this->selectedModels as $brand)
-                    <div class="flex items-center justify-between w-full px-2 py-2 text-sm text-left border rounded shadow-sm "
+                    <div class="flex items-center justify-between w-full px-2 py-2 text-sm text-left border rounded shadow-sm"
                          wire:key="selected_{{ $brand->id }}">
                         <div class="truncate max-w-64">
                             {{ $brand->name }}

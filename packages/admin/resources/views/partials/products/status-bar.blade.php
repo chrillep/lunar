@@ -85,7 +85,7 @@
 
       <li class="relative p-4 text-sm text-gray-900 cursor-default select-none @if($product->status != 'draft') hover:bg-gray-100 @endif" id="listbox-option-0" role="option">
         <button type="button" class="flex flex-col cursor-pointer" wire:click.prevent="$set('product.status', 'draft')">
-          <div class="flex justify-between ">
+          <div class="flex justify-between">
             <!-- Selected: "font-semibold", Not Selected: "font-normal" -->
             <p class="@if($product->status == 'draft') font-semibold @else font-normal @endif">
               {{ __('adminhub::partials.products.status-bar.draft.label')}}
